@@ -1,0 +1,15 @@
+.container{
+    padding: auto;
+    margin: auto;
+    width: 70%;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+ p{
+    width: 20%;
+}
+

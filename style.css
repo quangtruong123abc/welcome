@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+header p {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+header h1{
+    text-align: center;
+    margin-top:20px ;
+}
+
+.blog__item img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.container{
+    margin: auto;
+    padding: auto;
+    width: 75%;
+}
+
+.blog__item{
+    display: flex;
+    width: 100%;
+}
+
+.item__left,
+.item__right {
+    width: 50% ;
+}
+
+.item__right{
+    margin-left: 50px;
+}
+.blog{
+    
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 26px;
+}
+.hp{
+    text-align: center;
+   
+
+}
+.ele1  h3{
+    text-align: center;
+}
+.ele1  h3::selection{
+    color: red;
+    background: transparent;    
+}
+.ali{
+    text-align: center;
+}
+
+.ele1{
+    padding-top: 10%;
+}
+
+.contact{
+background-color: #9bccbb;
+}
+
+.contact__form{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form__above,
+.form__middle{
+    width: 100%;
+}
+
+.form__above{
+    display: flex;
+}
+
+.form__1,
+.form__2{
+    width: 50%;
+    padding: 1.2rem;
+}
+
+.form__1 label,
+.form__2 label,
+.form__3 label,
+.form__4 label{
+    display: block;
+}
+
+.form__1 input,
+.form__2 input,
+.form__3 input,
+.form__4 textarea{
+    width: 100%;
+    border-width: 0 0 2px;
+    background-color: #9bccbb;
+    padding: 5px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.form__1 input:focus,
+.form__2 input:focus,
+.form__3 input:focus,
+.form__4 textarea:focus{
+    outline: none;
+}
+
+.form__3{
+    width: 100%;
+    padding: 1.2rem;
+}
+
+.form__4{
+    width:100%;
+    padding: 1.2rem;
+}
+
+.form__bottom{
+    display: flex;
+    justify-content: end;
+}
+.footer{
+    text-align: center;
+}
+
+/* button{
+    background-color: #9bccbb;
+    color:#fff;
+    text-shadow: #fff;
+    text-align:right;
+    cursor: pointer;
+    
+    font-size: 16px;
+    text-decoration: none;
+} */
+
+button{
+background-color: #9bccbb;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid #5a5661;
+}
+
+button:hover{
+    background-color: #5a5661;
+    border-color: #5a5661;
+    color: white;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+}
+
+.brand p{
+    margin: 0.9%;
+    font-size: 30px;
+}
+.Logo{
+    margin: 20px;
+}
+    
+
+
+
+
+
